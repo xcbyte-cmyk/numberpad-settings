@@ -1,0 +1,12 @@
+*.md text eol=lf
+*.svg text eol=lf
+.gitattributes text eol=lf
+.gitignore text eol=lf
+*.json text eol=lf
+*.ps1 -text
+*.cmd -text
+*.reg -text
+*.mhm -text
+SHA256.txt -text
+windows/** -text whitespace=cr-at-eol
+codex/*.ps1 -text whitespace=cr-at-eol

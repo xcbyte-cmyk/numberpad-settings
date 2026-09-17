@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Macro Version="1.0" RepeatingMode="0">
+  <KeyBoardEvent Down="true">15</KeyBoardEvent>
+  <DelayEvent>30</DelayEvent>
+  <KeyBoardEvent Down="false">15</KeyBoardEvent>
+</Macro>

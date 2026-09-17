@@ -1,0 +1,54 @@
+[
+  {
+    "command": "archiveThread",
+    "key": null
+  },
+  {
+    "command": "composer.cycleReasoningEffort",
+    "key": null
+  },
+  {
+    "command": "composer.decreaseReasoningEffort",
+    "key": "F13"
+  },
+  {
+    "command": "composer.increaseReasoningEffort",
+    "key": "F14"
+  },
+  {
+    "command": "composer.openModelPicker",
+    "key": "F15"
+  },
+  {
+    "command": "focusMainChat",
+    "key": "Ctrl+Shift+Space"
+  },
+  {
+    "command": "focusSideChat",
+    "key": "Ctrl+Shift+A"
+  },
+  {
+    "command": "forceReloadSkills",
+    "key": "F6"
+  },
+  {
+    "command": "hotkeyWindow",
+    "key": "Ctrl+Alt+Space"
+  },
+  {
+    "command": "keyboardShortcuts",
+    "key": null
+  },
+  {
+    "command": "newProjectlessTask",
+    "key": "F19"
+  },
+  {
+    "command": "openSideChat",
+    "key": "F21"
+  },
+  {
+    "command": "quickChat",
+    "key": "F20"
+  }
+]

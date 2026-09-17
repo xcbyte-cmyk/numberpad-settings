@@ -1,0 +1,8 @@
+# Target-PC backups and generated files must not be committed.
+Backups/
+pc-backups/
+history/
+*.tmp
+*.log
+.DS_Store
+Thumbs.db

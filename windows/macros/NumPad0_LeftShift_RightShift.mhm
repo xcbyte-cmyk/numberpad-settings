@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><Macro RepeatingMode="4">
+	<KeyBoardEvent Down="true">54</KeyBoardEvent>
+	<KeyBoardEvent Down="true">42</KeyBoardEvent>
+</Macro>

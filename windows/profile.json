@@ -1,0 +1,309 @@
+{
+  "capturedAt": "2026-09-17T11:47:58.8487862+09:00",
+  "version": 1,
+  "events": [
+    {
+      "id": "937",
+      "values": [
+        {
+          "kind": "String",
+          "value": "NumPadSlash_Tab.mhm",
+          "name": "Macro"
+        },
+        {
+          "kind": "DWord",
+          "value": 1401,
+          "name": "Command"
+        }
+      ]
+    },
+    {
+      "id": "938",
+      "values": [
+        {
+          "kind": "DWord",
+          "value": 412,
+          "name": "Command"
+        },
+        {
+          "kind": "DWord",
+          "value": 133,
+          "name": "Keystroke"
+        },
+        {
+          "kind": "String",
+          "value": "F22",
+          "name": "KeystrokeText"
+        }
+      ]
+    },
+    {
+      "id": "939",
+      "values": [
+        {
+          "kind": "DWord",
+          "value": 134,
+          "name": "Keystroke"
+        },
+        {
+          "kind": "String",
+          "value": "F23",
+          "name": "KeystrokeText"
+        },
+        {
+          "kind": "DWord",
+          "value": 412,
+          "name": "Command"
+        }
+      ]
+    },
+    {
+      "id": "941",
+      "values": [
+        {
+          "kind": "String",
+          "value": "NumPad0_LeftShift_RightShift.mhm",
+          "name": "Macro"
+        },
+        {
+          "kind": "DWord",
+          "value": 1671,
+          "name": "Keystroke"
+        },
+        {
+          "kind": "String",
+          "value": "L Ctrl + L Alt + F24",
+          "name": "KeystrokeText"
+        },
+        {
+          "kind": "DWord",
+          "value": 412,
+          "name": "Command"
+        }
+      ]
+    },
+    {
+      "id": "942",
+      "values": [
+        {
+          "kind": "DWord",
+          "value": 124,
+          "name": "Keystroke"
+        },
+        {
+          "kind": "String",
+          "value": "F13",
+          "name": "KeystrokeText"
+        },
+        {
+          "kind": "DWord",
+          "value": 412,
+          "name": "Command"
+        }
+      ]
+    },
+    {
+      "id": "943",
+      "values": [
+        {
+          "kind": "DWord",
+          "value": 125,
+          "name": "Keystroke"
+        },
+        {
+          "kind": "String",
+          "value": "F14",
+          "name": "KeystrokeText"
+        },
+        {
+          "kind": "DWord",
+          "value": 412,
+          "name": "Command"
+        }
+      ]
+    },
+    {
+      "id": "944",
+      "values": [
+        {
+          "kind": "DWord",
+          "value": 126,
+          "name": "Keystroke"
+        },
+        {
+          "kind": "String",
+          "value": "F15",
+          "name": "KeystrokeText"
+        },
+        {
+          "kind": "DWord",
+          "value": 412,
+          "name": "Command"
+        }
+      ]
+    },
+    {
+      "id": "945",
+      "values": [
+        {
+          "kind": "DWord",
+          "value": 127,
+          "name": "Keystroke"
+        },
+        {
+          "kind": "String",
+          "value": "F16",
+          "name": "KeystrokeText"
+        },
+        {
+          "kind": "DWord",
+          "value": 412,
+          "name": "Command"
+        }
+      ]
+    },
+    {
+      "id": "946",
+      "values": [
+        {
+          "kind": "DWord",
+          "value": 128,
+          "name": "Keystroke"
+        },
+        {
+          "kind": "String",
+          "value": "F17",
+          "name": "KeystrokeText"
+        },
+        {
+          "kind": "DWord",
+          "value": 412,
+          "name": "Command"
+        }
+      ]
+    },
+    {
+      "id": "947",
+      "values": [
+        {
+          "kind": "DWord",
+          "value": 129,
+          "name": "Keystroke"
+        },
+        {
+          "kind": "String",
+          "value": "F18",
+          "name": "KeystrokeText"
+        },
+        {
+          "kind": "DWord",
+          "value": 412,
+          "name": "Command"
+        }
+      ]
+    },
+    {
+      "id": "948",
+      "values": [
+        {
+          "kind": "DWord",
+          "value": 130,
+          "name": "Keystroke"
+        },
+        {
+          "kind": "String",
+          "value": "F19",
+          "name": "KeystrokeText"
+        },
+        {
+          "kind": "DWord",
+          "value": 412,
+          "name": "Command"
+        }
+      ]
+    },
+    {
+      "id": "949",
+      "values": [
+        {
+          "kind": "DWord",
+          "value": 131,
+          "name": "Keystroke"
+        },
+        {
+          "kind": "String",
+          "value": "F20",
+          "name": "KeystrokeText"
+        },
+        {
+          "kind": "DWord",
+          "value": 412,
+          "name": "Command"
+        }
+      ]
+    },
+    {
+      "id": "950",
+      "values": [
+        {
+          "kind": "DWord",
+          "value": 132,
+          "name": "Keystroke"
+        },
+        {
+          "kind": "String",
+          "value": "F21",
+          "name": "KeystrokeText"
+        },
+        {
+          "kind": "DWord",
+          "value": 412,
+          "name": "Command"
+        }
+      ]
+    },
+    {
+      "id": "952",
+      "values": [
+        {
+          "kind": "String",
+          "value": "NumPad0_LeftShift_RightShift.mhm",
+          "name": "Macro"
+        },
+        {
+          "kind": "DWord",
+          "value": 1401,
+          "name": "Command"
+        }
+      ]
+    },
+    {
+      "id": "953",
+      "values": [
+        {
+          "kind": "DWord",
+          "value": 803,
+          "name": "Command"
+        }
+      ]
+    }
+  ],
+  "appshotHotkey": "Ctrl+Alt+F24",
+  "macros": [
+    "NumPadSlash_Tab.mhm",
+    "NumPad0_LeftShift_RightShift.mhm"
+  ],
+  "scanMappings": [
+    {
+      "source": 109,
+      "description": "F22 -> Left Shift",
+      "target": 42
+    },
+    {
+      "source": 110,
+      "description": "F23 -> Right Shift",
+      "target": 54
+    }
+  ],
+  "model": 7026
+}
