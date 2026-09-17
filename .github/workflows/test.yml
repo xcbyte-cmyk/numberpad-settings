@@ -1,0 +1,27 @@
+name: Portable settings tests
+on:
+  push:
+    branches: [main, 'refactor/**']
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  windows:
+    runs-on: windows-latest
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        shell: [powershell, pwsh]
+    name: Windows (${{ matrix.shell }})
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - name: Syntax, safety, payload and isolated integration tests
+        shell: ${{ matrix.shell }}
+        run: ./tests/Run.Tests.ps1
