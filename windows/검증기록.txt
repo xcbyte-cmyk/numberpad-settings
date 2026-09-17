@@ -1,9 +1,8 @@
-﻿검증 완료: Windows PowerShell 읽기 전용 Check 실행
-키 매핑 15개: 현재 레지스트리 값과 일치
-관련 매크로 2개: 원본과 SHA-256 일치 확인
-0: Ctrl+Alt+F24 / Codex: Ctrl+Alt+F24
-Windows: F22→왼쪽 Shift, F23→오른쪽 Shift 확인
-Codex JSON: 다른 항목 바이트 보존 및 없던 항목 복구 검사 통과
-Windows 키 변환: 무관한 기존 변환 보존 검사 통과
-현재 PC에 Apply/Restore 및 관리자 변경은 실행하지 않음
-대상 PC의 가져오기·재부팅 후 물리 입력과 앱샷 실행은 아직 미검증
+2026-09-17 최종 배치 병합
+현재 레지스트리에서 키 매핑 16개 재수집
+/ = F22 → 왼쪽 Shift, * = F23 → 오른쪽 Shift, - = Tab
+Backspace = Esc, . = 기본 소수점, 0 = Ctrl+Alt+F24 유지
+마우스·키보드 센터 재실행 후 저장값 유지 확인
+0번 앱샷은 이전에 사용자가 실제 작동 확인
+이번 변경 키의 물리 입력과 다른 PC 적용은 미검증
+기존 Apply/Restore 로직과 Codex 사용자 단축키는 변경하지 않음
