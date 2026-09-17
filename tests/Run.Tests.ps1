@@ -210,7 +210,7 @@ try {
         $env:CODEX_HOME = $savedHome; $env:LOCALAPPDATA = $savedLocal
     }
     Test-Case 'Windows payload checksums match' {
-        foreach ($line in Get-Content -LiteralPath (Join-Path $repo 'windows/SHA256.txt')) {
+        foreach ($line in Get-Content -Encoding UTF8 -LiteralPath (Join-Path $repo 'windows/SHA256.txt')) {
             if ($line -match '^([0-9A-Fa-f]{64})  (.+)$') {
                 $expected = $Matches[1]
                 $relative = $Matches[2].Replace('\', [IO.Path]::DirectorySeparatorChar)
@@ -221,4 +221,5 @@ try {
 } finally {
     if (Test-Path -LiteralPath $temp) { Remove-Item -LiteralPath $temp -Recurse -Force }
 }
+. (Join-Path $PSScriptRoot 'Windows.Tests.ps1')
 Write-Host ('Passed ' + $script:passed + ' tests on PowerShell ' + $PSVersionTable.PSVersion)

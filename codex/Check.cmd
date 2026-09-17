@@ -2,7 +2,5 @@
 setlocal
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0Transfer.ps1" -Mode Check
 set "exitCode=%ERRORLEVEL%"
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0Windows-Shift.ps1" -Mode Check
-if errorlevel 1 set "exitCode=%ERRORLEVEL%"
 pause
 exit /b %exitCode%

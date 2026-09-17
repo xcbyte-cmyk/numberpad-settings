@@ -14,5 +14,6 @@ jobs:
         shell: powershell
         run: ./tests/Run.Tests.ps1
       - name: PowerShell 7
+        if: always()
         shell: pwsh
         run: ./tests/Run.Tests.ps1

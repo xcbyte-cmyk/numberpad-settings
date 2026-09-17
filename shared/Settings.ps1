@@ -8,6 +8,7 @@ function ConvertFrom-PortableJson {
         $trimmed = $Text.TrimStart()
         if ($Kind -eq 'Object' -and -not $trimmed.StartsWith('{')) { throw 'object required' }
         if ($Kind -eq 'Array' -and -not $trimmed.StartsWith('[')) { throw 'array required' }
+        if ($Kind -eq 'Any' -and $Text.Trim() -ceq 'null') { return ,$null }
         $value = ConvertFrom-Json -InputObject $Text -ErrorAction Stop
         if ($Kind -eq 'Object' -and $null -eq $value) { throw 'object required' }
         if ($Kind -eq 'Array') {
@@ -80,7 +81,8 @@ function Set-PortableJsonString {
     } elseif (-not $Exists) { return $Text }
 
     if ($Exists) {
-        $pair = '"' + $Name + '":' + (ConvertTo-Json -InputObject $Value -Compress)
+        $jsonValue = if ($null -eq $Value) { 'null' } else { ConvertTo-Json -InputObject $Value -Compress }
+        $pair = '"' + $Name + '":' + $jsonValue
         if ($null -ne $member) {
             $result = $Text.Substring(0, $member.Start) + $pair + $Text.Substring($member.End)
         } else {
