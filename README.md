@@ -2,7 +2,7 @@
 
 Microsoft Number Pad의 키 배치와 다른 PC로 이전하기 위한 설정 도구입니다.
 
-**Windows 적용 파일은 `windows/`에 있습니다. macOS 설정 파일은 아직 포함하지 않습니다.**
+**Windows 적용 파일은 `windows/`에, 현재 Mac의 설정 스냅샷은 `macos/`에 있습니다.**
 
 ![넘버패드의 Codex 기능 배치](docs/numberpad-codex.svg)
 
@@ -43,7 +43,7 @@ Codex 추가 설정은 `codex/Restore.cmd`로 복구합니다. 전체 적용을 
 
 Windows의 `.cmd`, `.ps1`, `.reg` 파일을 Mac에서 실행하지 마세요. [Karabiner-Elements](https://karabiner-elements.pqrs.org/)에서 Microsoft Number Pad만 대상으로 설정하고 EventViewer로 실제 입력을 먼저 확인해야 합니다.
 
-`/` → 왼쪽 Shift, `*` → 오른쪽 Shift, `-` → Tab, Backspace → Esc 등은 Mac용 규칙으로 구성합니다. `0`의 앱샷 연결은 해당 Mac의 Codex 버전·단축키·실제 첨부 동작을 확인해야 합니다. 이 저장소는 Mac에서 동작 검증된 매핑을 제공하지 않습니다.
+현재 Mac 설정과 적용 시 주의 사항은 [Mac 사용 안내](macos/README.md)를 확인하세요. Windows 배치도와 위 표는 Windows용이며, Mac에서는 4번이 Codex 음성 대화, 5번이 Codex 채팅창 음성 입력, 6번이 macOS 받아쓰기입니다. `0`의 앱샷과 실제 음성 입력 동작은 아직 검증하지 않았습니다.
 
 ## 검증 범위
 

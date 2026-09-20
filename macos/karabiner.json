@@ -1,0 +1,167 @@
+{
+  "profiles": [
+    {
+      "name": "Microsoft Number Pad",
+      "selected": true,
+      "virtual_hid_keyboard": {
+        "keyboard_type_v2": "ansi"
+      },
+      "devices": [
+        {
+          "identifiers": {
+            "vendor_id": 1118,
+            "product_id": 2102,
+            "is_keyboard": true,
+            "is_pointing_device": true
+          },
+          "ignore": false,
+          "simple_modifications": [
+            {
+              "from": {
+                "key_code": "keypad_1"
+              },
+              "to": [
+                {
+                  "key_code": "f13"
+                }
+              ]
+            },
+            {
+              "from": {
+                "key_code": "keypad_2"
+              },
+              "to": [
+                {
+                  "key_code": "f14"
+                }
+              ]
+            },
+            {
+              "from": {
+                "key_code": "keypad_3"
+              },
+              "to": [
+                {
+                  "key_code": "f15"
+                }
+              ]
+            },
+            {
+              "from": {
+                "key_code": "keypad_4"
+              },
+              "to": [
+                {
+                  "key_code": "f16"
+                }
+              ]
+            },
+            {
+              "from": {
+                "key_code": "keypad_5"
+              },
+              "to": [
+                {
+                  "key_code": "f17"
+                }
+              ]
+            },
+            {
+              "from": {
+                "key_code": "keypad_6"
+              },
+              "to": [
+                {
+                  "apple_vendor_keyboard_key_code": "dictation"
+                }
+              ]
+            },
+            {
+              "from": {
+                "key_code": "keypad_7"
+              },
+              "to": [
+                {
+                  "key_code": "f19"
+                }
+              ]
+            },
+            {
+              "from": {
+                "key_code": "keypad_8"
+              },
+              "to": [
+                {
+                  "key_code": "f20"
+                }
+              ]
+            },
+            {
+              "from": {
+                "key_code": "keypad_9"
+              },
+              "to": [
+                {
+                  "key_code": "f21"
+                }
+              ]
+            },
+            {
+              "from": {
+                "key_code": "keypad_0"
+              },
+              "to": [
+                {
+                  "key_code": "left_command",
+                  "modifiers": [
+                    "right_command"
+                  ]
+                }
+              ]
+            },
+            {
+              "from": {
+                "key_code": "keypad_slash"
+              },
+              "to": [
+                {
+                  "key_code": "left_shift"
+                }
+              ]
+            },
+            {
+              "from": {
+                "key_code": "keypad_asterisk"
+              },
+              "to": [
+                {
+                  "key_code": "right_shift"
+                }
+              ]
+            },
+            {
+              "from": {
+                "key_code": "keypad_hyphen"
+              },
+              "to": [
+                {
+                  "key_code": "tab"
+                }
+              ]
+            },
+            {
+              "from": {
+                "key_code": "delete_or_backspace"
+              },
+              "to": [
+                {
+                  "key_code": "escape"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
