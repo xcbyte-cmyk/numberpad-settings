@@ -9,7 +9,7 @@
       "complex_modifications": {
         "rules": [
           {
-            "description": "Microsoft Number Pad Calculator opens Calculator",
+            "description": "Microsoft Number Pad Calculator opens Accessibility Keyboard",
             "manipulators": [
               {
                 "type": "basic",
@@ -18,7 +18,7 @@
                 },
                 "to": [
                   {
-                    "shell_command": "/usr/bin/open -a Calculator"
+                    "shell_command": "/usr/bin/shortcuts run 'Microsoft Number Pad — Accessibility Keyboard'"
                   }
                 ],
                 "conditions": [
@@ -37,7 +37,7 @@
             ]
           },
           {
-            "description": "Microsoft Number Pad period triggers Codex appshot (both Command keys)",
+            "description": "Microsoft Number Pad period types 0909 then Enter",
             "manipulators": [
               {
                 "type": "basic",
@@ -46,10 +46,19 @@
                 },
                 "to": [
                   {
-                    "key_code": "left_command",
-                    "modifiers": [
-                      "right_command"
-                    ]
+                    "key_code": "0"
+                  },
+                  {
+                    "key_code": "9"
+                  },
+                  {
+                    "key_code": "0"
+                  },
+                  {
+                    "key_code": "9"
+                  },
+                  {
+                    "key_code": "return_or_enter"
                   }
                 ],
                 "conditions": [

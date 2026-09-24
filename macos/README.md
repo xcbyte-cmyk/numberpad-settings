@@ -16,12 +16,12 @@
 | / / * | 왼쪽 Shift / 오른쪽 Shift |
 | - | Tab |
 | Backspace | Esc |
-| . | 앱샷용 좌우 Command 동시 입력 — 실제 앱샷 동작 미검증 |
+| . | `0909` 입력 후 Enter |
 | + / Enter | 이 프로필에서 변경하지 않음 |
 
 2번은 `Control+Shift+Option+R`, 3번은 `Control+Shift+Option+M`을 전송하도록 구성했습니다. Codex의 대응 단축키도 동일한 조합이어야 합니다. 앱 화면에 이전 값이 남으면 단축키 편집에서 해당 넘버패드 키를 눌러 다시 등록하세요. 2·3번의 실제 동작은 아직 확인되지 않았습니다.
 
-계산기 버튼은 계산기를 엽니다. 점 키의 기존 숫자 매크로는 제거했습니다. 6번 받아쓰기는 Karabiner에서 지원하는 `consumer_key_code: dictation`을 사용합니다.
+계산기 버튼은 `Microsoft Number Pad — Accessibility Keyboard` 단축어로 손쉬운 사용 키보드를 엽니다. 점 키는 `0909` 입력 후 Enter를 보냅니다. 다른 맥에는 같은 이름의 단축어를 별도로 준비해야 합니다. 6번 받아쓰기는 Karabiner에서 지원하는 `consumer_key_code: dictation`을 사용합니다.
 
 ## 다른 Mac에 적용
 
