@@ -4,14 +4,6 @@
     "key": null
   },
   {
-    "command": "composer.startVoiceMode",
-    "key": "F16"
-  },
-  {
-    "command": "composer.startDictation",
-    "key": "F17"
-  },
-  {
     "command": "composer.cycleReasoningEffort",
     "key": null
   },
@@ -21,11 +13,11 @@
   },
   {
     "command": "composer.increaseReasoningEffort",
-    "key": "F14"
+    "key": "Ctrl+Shift+Alt+R"
   },
   {
     "command": "composer.openModelPicker",
-    "key": "F15"
+    "key": "Ctrl+Shift+Alt+M"
   },
   {
     "command": "focusMainChat",
@@ -58,5 +50,13 @@
   {
     "command": "quickChat",
     "key": "F20"
+  },
+  {
+    "command": "composer.startVoiceMode",
+    "key": "F16"
+  },
+  {
+    "command": "composer.startDictation",
+    "key": "F17"
   }
 ]

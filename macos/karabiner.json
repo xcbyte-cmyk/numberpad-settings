@@ -6,6 +6,69 @@
       "virtual_hid_keyboard": {
         "keyboard_type_v2": "ansi"
       },
+      "complex_modifications": {
+        "rules": [
+          {
+            "description": "Microsoft Number Pad Calculator opens Calculator",
+            "manipulators": [
+              {
+                "type": "basic",
+                "from": {
+                  "consumer_key_code": "al_calculator"
+                },
+                "to": [
+                  {
+                    "shell_command": "/usr/bin/open -a Calculator"
+                  }
+                ],
+                "conditions": [
+                  {
+                    "type": "device_if",
+                    "identifiers": [
+                      {
+                        "vendor_id": 1118,
+                        "product_id": 2102,
+                        "is_keyboard": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "description": "Microsoft Number Pad period triggers Codex appshot (both Command keys)",
+            "manipulators": [
+              {
+                "type": "basic",
+                "from": {
+                  "key_code": "keypad_period"
+                },
+                "to": [
+                  {
+                    "key_code": "left_command",
+                    "modifiers": [
+                      "right_command"
+                    ]
+                  }
+                ],
+                "conditions": [
+                  {
+                    "type": "device_if",
+                    "identifiers": [
+                      {
+                        "vendor_id": 1118,
+                        "product_id": 2102,
+                        "is_keyboard": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
       "devices": [
         {
           "identifiers": {
@@ -32,7 +95,12 @@
               },
               "to": [
                 {
-                  "key_code": "f14"
+                  "key_code": "r",
+                  "modifiers": [
+                    "left_control",
+                    "left_shift",
+                    "left_option"
+                  ]
                 }
               ]
             },
@@ -42,7 +110,12 @@
               },
               "to": [
                 {
-                  "key_code": "f15"
+                  "key_code": "m",
+                  "modifiers": [
+                    "left_control",
+                    "left_shift",
+                    "left_option"
+                  ]
                 }
               ]
             },
@@ -72,7 +145,7 @@
               },
               "to": [
                 {
-                  "apple_vendor_keyboard_key_code": "dictation"
+                  "consumer_key_code": "dictation"
                 }
               ]
             },

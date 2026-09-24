@@ -1,6 +1,6 @@
 # Mac 설정 스냅샷
 
-2026년 9월 20일 현재 설정입니다. Windows용 파일은 변경하지 않았습니다.
+2026년 9월 25일 저장된 설정입니다. Windows용 파일은 변경하지 않았습니다.
 
 - `karabiner.json`: Microsoft Number Pad만 대상으로 하는 Karabiner-Elements 프로필입니다. 장치 식별자는 Vendor ID 1118, Product ID 2102입니다.
 - `keybindings.json`: 해당 Mac에서 사용하는 Codex 사용자 지정 단축키입니다.
@@ -16,7 +16,12 @@
 | / / * | 왼쪽 Shift / 오른쪽 Shift |
 | - | Tab |
 | Backspace | Esc |
-| . / + / Enter | 이 프로필에서 변경하지 않음 |
+| . | 앱샷용 좌우 Command 동시 입력 — 실제 앱샷 동작 미검증 |
+| + / Enter | 이 프로필에서 변경하지 않음 |
+
+2번은 `Control+Shift+Option+R`, 3번은 `Control+Shift+Option+M`을 전송하도록 구성했습니다. Codex의 대응 단축키도 동일한 조합이어야 합니다. 앱 화면에 이전 값이 남으면 단축키 편집에서 해당 넘버패드 키를 눌러 다시 등록하세요. 2·3번의 실제 동작은 아직 확인되지 않았습니다.
+
+계산기 버튼은 계산기를 엽니다. 점 키의 기존 숫자 매크로는 제거했습니다. 6번 받아쓰기는 Karabiner에서 지원하는 `consumer_key_code: dictation`을 사용합니다.
 
 ## 다른 Mac에 적용
 
