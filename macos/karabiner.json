@@ -42,7 +42,12 @@
               {
                 "type": "basic",
                 "from": {
-                  "key_code": "keypad_period"
+                  "key_code": "keypad_period",
+                  "modifiers": {
+                    "optional": [
+                      "caps_lock"
+                    ]
+                  }
                 },
                 "to": [
                   {
@@ -104,12 +109,7 @@
               },
               "to": [
                 {
-                  "key_code": "r",
-                  "modifiers": [
-                    "left_control",
-                    "left_shift",
-                    "left_option"
-                  ]
+                  "key_code": "f14"
                 }
               ]
             },
@@ -119,12 +119,7 @@
               },
               "to": [
                 {
-                  "key_code": "m",
-                  "modifiers": [
-                    "left_control",
-                    "left_shift",
-                    "left_option"
-                  ]
+                  "key_code": "f15"
                 }
               ]
             },

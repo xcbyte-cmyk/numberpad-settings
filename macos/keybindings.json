@@ -13,11 +13,11 @@
   },
   {
     "command": "composer.increaseReasoningEffort",
-    "key": "Ctrl+Shift+Alt+R"
+    "key": "F14"
   },
   {
     "command": "composer.openModelPicker",
-    "key": "Ctrl+Shift+Alt+M"
+    "key": "F15"
   },
   {
     "command": "focusMainChat",
